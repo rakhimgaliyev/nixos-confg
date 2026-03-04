@@ -50,11 +50,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772623448,
-        "narHash": "sha256-gcNsPDGYTF33nBDhubf5LMYWl94XqntRf+O1mvENr9s=",
+        "lastModified": 1772643481,
+        "narHash": "sha256-TUAILNAGDPTiwa3I0o7y8as5Ee6T72KwpKeyMlpzDN0=",
         "owner": "rakhimgaliyev",
         "repo": "wallpaper-runner",
-        "rev": "b9b46d8547beb16232656ce7ac406e90f42d95ee",
+        "rev": "f1f090e744b8e92433f2b3cd432219922b8c480f",
         "type": "github"
       },
       "original": {
