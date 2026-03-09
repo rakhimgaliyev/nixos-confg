@@ -127,6 +127,14 @@
   # Hyprland (Wayland)
   programs.hyprland.enable = true;
   programs.dconf.enable = true;
+  programs.xfconf.enable = true;
+  programs.thunar = {
+    enable = true;
+    plugins = with pkgs.xfce; [
+      thunar-archive-plugin
+      thunar-volman
+    ];
+  };
   services.xserver.enable = true;
   services.greetd = {
     enable = true;
@@ -142,6 +150,9 @@
     enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-hyprland ];
   };
+  services.gvfs.enable = true;
+  services.tumbler.enable = true;
+  services.udisks2.enable = true;
 
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
