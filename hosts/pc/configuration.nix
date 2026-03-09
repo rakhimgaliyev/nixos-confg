@@ -57,6 +57,7 @@
     ripgrep
     htop
     go
+    gcc
     pciutils
     ghostty
     hyprlock
