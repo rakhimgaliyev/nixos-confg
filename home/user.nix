@@ -100,6 +100,10 @@
     source = ../configs/waybar/scripts/open-bluetooth.sh;
     executable = true;
   };
+  home.file.".local/bin/mac-capture" = {
+    source = ../scripts/mac-capture.sh;
+    executable = true;
+  };
   xdg.configFile."wallpapers".source = ../assets/wallpapers;
   home.file.".local/share/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg/autoexec.cfg".source =
     ../configs/cs2/autoexec.cfg;

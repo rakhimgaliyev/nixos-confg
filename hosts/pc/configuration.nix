@@ -70,6 +70,10 @@
     telegram-desktop
     pkgs."teamspeak6-client"
     wl-clipboard
+    grim
+    slurp
+    wf-recorder
+    libnotify
     blueman
     pavucontrol
     pulseaudio
